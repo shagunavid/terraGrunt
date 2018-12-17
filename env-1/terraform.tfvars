@@ -16,7 +16,7 @@ terragrunt = {
   # Terragrunt will copy the Terraform configurations specified by the source parameter, along with any files in the
   # working directory, into a temporary folder, and execute your Terraform commands in that folder.
   terraform {
-    source = "git@github.com:public-avid/repo-modules.git//ct_files"
+    source = "https://github.com/shagunavid/modulesRepo.git//ct_files"
   }
 }
 
